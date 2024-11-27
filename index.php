@@ -18,7 +18,7 @@ switch ($page) {
         $customers = $customerController->index();
         $orders = $orderController->index();
         $inventory = $inventoryController->index();
-        include 'views/dashboard.php';
+        include 'views/index.php';
         break;
     case 'customers':
         if ($action === 'create') {
